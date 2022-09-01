@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="645.0" style="-fx-background-color: #C8AD7F;" type="AnchorPane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Button fx:id="hist" layoutX="175.0" layoutY="180.0" mnemonicParsing="false" onAction="#showHistory" prefHeight="26.0" prefWidth="322.0" text="Show calculation history">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</fx:root>
